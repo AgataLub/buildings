@@ -2,7 +2,7 @@ fetchProducts();
 
 function fetchProducts() {
 console.log("fetchProducts");
-    fetch("http://agataswistak.com/wordpress/wp-json/wp/v2/building")
+    fetch("https://agataswistak.com/wordpress/wp-json/wp/v2/building")
         .then(function (response) {
             console.log(response)
             return response.json();
