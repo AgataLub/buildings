@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Properties</h1>
+        <ul>
+            <li>Newest</li>
+            <li class="decor1">/</li>
+            <li>Popular</li>
+        </ul>
+        <button class="nav_button">Add New Property</button>
+    </nav>
+
+    <section>
+        <template id="productTemplate">
+            <article class="post">
+
+                <span class="fresh"></span>
+                <img class="productImage">
+
+                <h2 class="address_street"></h2>
+                <h2 class="address_city"></h2>
+
+
+                <section class="article_styling">
+                    <span class="unit" id="one"><span class="beds"></span><br>bed</span>
+                    <span class="unit" id="two"><span class="baths"></span><br>bath</span>
+                    <span class="unit" id="three"><span class="sq_feet"></span><br>sq feet</span>
+                </section>
+                <button class="body_button">View Property</button>
+            </article>
+        </template>
+    </section>
+
+    <script src="script.js"></script>
+</body></html>
